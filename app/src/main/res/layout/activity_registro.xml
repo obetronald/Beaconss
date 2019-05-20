@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#051829"
+    tools:context=".Registro">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Sign up Tourist"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nombreRegistro"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/holo_blue_dark"
+        android:textColorHint="@android:color/background_light"
+        android:textColorLink="@android:color/holo_blue_dark" />
+
+    <EditText
+        android:id="@+id/apellidoRegistro"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Surname"
+        android:inputType="text"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/holo_blue_dark"
+        android:textColorHint="@android:color/background_light"
+        android:textColorLink="@android:color/holo_blue_dark" />
+
+    <EditText
+        android:id="@+id/correoRegistro"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Mail"
+        android:inputType="text"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/holo_blue_dark"
+        android:textColorHint="@android:color/background_light"
+        android:textColorLink="@android:color/holo_blue_dark" />
+
+    <EditText
+        android:id="@+id/usuarioRegistro"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="User"
+        android:inputType="text"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/holo_blue_dark"
+        android:textColorHint="@android:color/background_light"
+        android:textColorLink="@android:color/holo_blue_dark" />
+
+    <EditText
+        android:id="@+id/claveRegistro"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/holo_blue_dark"
+        android:textColorHint="@android:color/background_light"
+        android:textColorLink="@android:color/holo_blue_dark" />
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+</LinearLayout>

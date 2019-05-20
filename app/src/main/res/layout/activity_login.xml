@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#051829"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageTitulo"
+        android:layout_width="300dp"
+        android:layout_height="149dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/a" />
+
+    <EditText
+        android:id="@+id/usuarioLogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:hint="confirm user"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        tools:layout_marginTop="55dp" />
+
+    <EditText
+        android:id="@+id/claveLogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/holo_blue_dark"
+        android:textColorHint="@android:color/background_light"
+        android:textColorLink="@android:color/holo_blue_dark"
+        tools:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Login"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        tools:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/registroLogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Create Account"
+        android:textAlignment="center"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnConec"
+        android:layout_width="91dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bea"/>
+
+    <Button
+        android:id="@+id/btnBlu"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/be1" />
+
+
+</LinearLayout>
